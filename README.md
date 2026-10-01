@@ -13,9 +13,8 @@ The goal is to run a simple website inside a Docker container and control access
 * Test the whole setup
 
 ## Progress
-
 * [x] Day 1 - Planning
-* [ ] Day 2 - Docker Network
+* [x] Day 2 - Docker Network
 * [ ] Day 3 - Nginx
 * [ ] Day 4 - DNS
 * [ ] Day 5 - Firewall
