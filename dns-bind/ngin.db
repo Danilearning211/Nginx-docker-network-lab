@@ -1,0 +1,14 @@
+$TTL 86400
+@ IN  SOA ns1.caro.tax.  admin.caro.tax. (
+              2026090201 ; Serial
+              3600       ; Refresh
+              1800       ; Retry
+              604800     ; Expire
+              86400 )    ; Minimum TTL
+
+  
+@   IN  NS  ns1.caro.tax.
+
+ns1 IN  A 192.168.42.128
+@   IN  A 192.168.42.128
+www IN  A 192.168.42.128
