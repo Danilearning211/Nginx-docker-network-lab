@@ -1,0 +1,24 @@
+services:
+ dns:
+  container_name: dns-bind
+  image: dns-image:v1.0.0
+  networks: 
+   - nginx-back-load
+ load-balancer:
+   container_name: load-balancer
+   image: load-balancer:v1.0.0
+   networks:
+    - nginx-back-load
+ backend1:
+  container_name: back-nginx1
+  image: backend1:v1.0.0
+  networks:
+   - nginx-back-load
+ backend2:
+  container_name: back-nginx2  
+  image: backend2:v1.0.0
+  networks: 
+   - nginx-back-load
+networks:
+ nginx-back-load:
+  external: true
