@@ -18,5 +18,5 @@ The goal is to run a simple website inside a Docker container and control access
 * [x] Day 3 - Nginx
 * [x] Day 4 - DNS
 * [x] Day 5 - Compose File
-* [ ] Day 6 - Final Test
+* [x] Day 6 - Final Test
 
